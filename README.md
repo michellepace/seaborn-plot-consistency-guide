@@ -10,43 +10,18 @@ This guide explores four key aspects of Seaborn plot customisation:
 - **Font** - Family selection and scaling options
 - **Colour** - Understanding and effectively using different palette types
 
-## Usage & Quick Start
+## Usage
 
-Click <a href="https://colab.research.google.com/github/michellepace/seaborn-plot-consistency-guide/blob/main/Seaborn_Consistency_Guide.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+Open Notebook here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/michellepace/seaborn-plot-consistency-guide/blob/main/Seaborn_Consistency_Guide.ipynb)
 
-Here's the core function for setting up consistent visualisations:
-
-```python
-import seaborn.objects as so
-import seaborn as sns
-from matplotlib.pyplot import cycler
-
-def set_my_global_theme(
-    style: str = "darkgrid",
-    context: str = "notebook",
-    font_scale: float = 1.0,
-    font_family: str = "sans-serif",
-    palette: str = "tab10"
-) -> None:
-    so.Plot.config.theme.reset()
-    theme_settings = (
-        sns.axes_style(style)
-        | sns.plotting_context(context=context, font_scale=font_scale)
-        | {
-            "font.family": font_family,
-            "axes.prop_cycle": cycler("color", sns.color_palette(palette))
-          }
-    )
-    so.Plot.config.theme.update(theme_settings)
-```
+This interactive notebook provides a complete walkthrough with working examples you can run and modify immediately.
 
 ## Key Features
 
 - Comprehensive guide to Seaborn's theme presets and colour systems
-- Step-by-step examples with visual demonstrations
 - Practical tips for choosing appropriate colour palettes
-- Global theme setup function for consistent visualisations
-- Built using the new `seaborn.objects` API
+- Step-by-step demonstrations with real-world applications
+- Global theme setup for consistent visualisations
 
 ## Contents
 
@@ -71,6 +46,6 @@ def set_my_global_theme(
    - Real-world applications
    - Complete theme setup demonstration
 
-## Licence
+## License
 
-[License.md](License.md)
+[LICENSE](LICENSE.md)
