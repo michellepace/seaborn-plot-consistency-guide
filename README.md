@@ -2,14 +2,6 @@
 
 A practical guide to creating consistent visualisations in Seaborn using the new `seaborn.objects` API. This notebook demonstrates how to maintain visual consistency across your data visualisations with minimal effort.
 
-## Overview
-
-This guide explores four key aspects of Seaborn plot customisation:
-- **Context** - Size and scale presets for different presentation contexts
-- **Style** - Background aesthetics and overall look & feel
-- **Font** - Family selection and scaling options
-- **Colour** - Understanding and effectively using different palette types
-
 ## Usage
 
 Open Notebook here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/michellepace/seaborn-plot-consistency-guide/blob/main/Seaborn_Consistency_Guide.ipynb)
@@ -18,10 +10,12 @@ This interactive notebook provides a complete walkthrough with working examples 
 
 ## Key Features
 
-- Comprehensive guide to Seaborn's theme presets and colour systems
-- Practical tips for choosing appropriate colour palettes
-- Step-by-step demonstrations with real-world applications
+- Demonstration of Seaborn's theme presets and colour palettes
 - Global theme setup for consistent visualisations
+- Practical tips for choosing appropriate colour palettes
+- Step-by-step code examples demonstrating presets and colour palettes
+
+![Notebook Overview](/../main/images//figure01_overview_600px_readme.png)
 
 ## Contents
 
