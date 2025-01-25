@@ -15,7 +15,7 @@ This interactive notebook provides a complete walkthrough with working examples 
 - Practical tips for choosing appropriate colour palettes
 - Step-by-step code examples demonstrating presets and colour palettes
 
-![Notebook Overview](/../main/images//figure01_overview_600px_readme.png)
+![Notebook Overview](/../main/images/figure01_overview_650px_readme.webp)
 
 ## Contents
 
