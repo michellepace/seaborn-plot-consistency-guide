@@ -2,7 +2,9 @@
 
 A practical guide to creating consistent visualisations in Seaborn using the new `seaborn.objects` API. This notebook demonstrates how to maintain visual consistency across your data visualisations with minimal effort.
 
-**Important Edit:** Read this notebook for concepts, but use Plotly Express (100%). The notebook explains the reasons. Wish I had found it sooner.
+**IMPORTANT EDIT:** 
+
+Read this notebook for concepts, but use Plotly Express (100%). The notebook explains the reasons. Wish I had found it sooner and not followed the crowd on Seaborn.
 
 ## Usage
 
