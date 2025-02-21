@@ -2,6 +2,10 @@
 
 A practical guide to creating consistent visualisations in Seaborn using the new `seaborn.objects` API. This notebook demonstrates how to maintain visual consistency across your data visualisations with minimal effort.
 
+**Important Edit**
+
+Read this notebook for 10 minutes, the concepts. Then use Plotly Express (100%). I wish I found this out sooner.
+
 ## Usage
 
 Open Notebook here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/michellepace/seaborn-plot-consistency-guide/blob/main/Seaborn_Consistency_Guide.ipynb)
